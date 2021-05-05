@@ -1,0 +1,69 @@
+
+DocsUI_NameplatesDB = {
+	["realm"] = {
+		["Mograine"] = {
+			["playerList"] = {
+				["0x00000000000305DF"] = "^1^SNinfuu^S0x00000000000305DF^SWARRIOR^SNONE^SMograine^^",
+				["Ninfuu"] = "0x00000000000305DF",
+			},
+		},
+	},
+	["global"] = {
+		["npcList"] = {
+			["Volatile Mutation"] = "NONE",
+			["Botanist Taerix"] = "NONE",
+			["Apprentice Vishael"] = "NONE",
+			["Draenei Survivor"] = "NONE",
+			["Vale Moth"] = "NONE",
+			["Proenitus"] = "NONE",
+		},
+		["agressiveList"] = {
+			["Vale Moth"] = true,
+			["Volatile Mutation"] = true,
+		},
+	},
+	["profileKeys"] = {
+		["Ninfuu - Mograine"] = "Ninfuu - Mograine",
+	},
+	["profiles"] = {
+		["Ninfuu - Mograine"] = {
+			["fontColor"] = {
+				["a"] = 0.6100000143051148,
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["lfgIcon"] = 1,
+			["fontsizeName"] = 14,
+			["font"] = "Roth",
+			["borderIcon"] = "Interface\\Addons\\DocsUI_Nameplates\\media\\border1pxIcon",
+			["allowOverlap"] = false,
+			["border"] = "Interface\\Addons\\DocsUI_Nameplates\\media\\border1px",
+			["fontsize"] = 16,
+			["dataConverted"] = 1,
+			["texture"] = "Glamour4",
+			["fontsizeBuffs"] = 12,
+			["threatEnabled"] = 1,
+			["threatIcon"] = false,
+			["fontsizeGuild"] = 9,
+			["outline"] = "OUTLINE",
+			["width"] = 90,
+			["unknownIcon"] = false,
+			["visibilityPvecombatEnemyUnit"] = 1,
+			["height"] = 6,
+			["showLevel"] = 1,
+			["socialIcon"] = 1,
+			["presetChosen"] = 1,
+			["fonti"] = "BigNoodleTitling-Oblique",
+			["bgColor"] = {
+				["a"] = 0.4800000190734863,
+			},
+			["borderSize"] = 1,
+			["threatColor"] = 1,
+			["roleIcon"] = 1,
+			["scaleBuffs"] = 1.2,
+			["tot"] = 1,
+			["fontb"] = "BigNoodleTitling-Oblique",
+		},
+	},
+}

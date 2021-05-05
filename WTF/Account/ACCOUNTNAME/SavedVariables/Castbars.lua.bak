@@ -1,0 +1,35 @@
+
+CastbarsDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ninfuu - Apollo 2"] = "Ninfuu - Apollo 2",
+	},
+	["profiles"] = {
+		["Ninfuu - Apollo 2"] = {
+			["FocusCastingBarFrame"] = {
+			},
+			["CastingBarFrame"] = {
+				["Position"] = {
+					["y"] = 215.9999119172356,
+					["x"] = 7.000052179463709,
+					["point"] = "BOTTOM",
+					["relpoint"] = "BOTTOM",
+				},
+			},
+			["MirrorTimer"] = {
+			},
+			["TargetCastingBarFrame"] = {
+				["Border"] = "Blizzard Tooltip",
+				["Position"] = {
+					["y"] = 221.0000192168143,
+					["x"] = 298.9998128241256,
+					["point"] = "BOTTOM",
+					["relpoint"] = "BOTTOM",
+				},
+			},
+		},
+	},
+}

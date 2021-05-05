@@ -1,0 +1,26 @@
+
+BagnonFrameSettings = {
+	["frames"] = {
+		["inventory"] = {
+			["frameColor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0.8500000089406967, -- [4]
+			},
+			["scale"] = 1.05,
+			["hasSearchToggle"] = false,
+			["hasOptionsToggle"] = false,
+			["hasBagFrame"] = false,
+			["frameBorderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["y"] = 8.204363502523592,
+			["x"] = -9.561305208944987,
+			["hasDBOFrame"] = false,
+		},
+	},
+	["version"] = "2.13.3",
+}

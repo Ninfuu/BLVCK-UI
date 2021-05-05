@@ -1,0 +1,19 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="LibGUIFactory-1.0.lua"/>
+	
+	<Script file="Widgets\UIF-Button.lua"/>
+	<Script file="Widgets\UIF-CheckBox.lua"/>
+	<Script file="Widgets\UIF-ColorSelect.lua"/>
+	<Script file="Widgets\UIF-DropDown.lua"/>
+	<Script file="Widgets\UIF-DropDownGroup.lua"/>
+	<Script file="Widgets\UIF-DropDownItems.lua"/>
+	<Script file="Widgets\UIF-Frame.lua"/>
+	<Script file="Widgets\UIF-InlineGroup.lua"/>
+	<Script file="Widgets\UIF-Slider.lua"/>
+	<Script file="Widgets\UIF-TabGroup.lua"/>
+	<Script file="Widgets\UIF-TreeGroup.lua"/>
+	<Script file="Widgets\UIF-NewLine.lua"/>
+	<Script file="Widgets\UIF-Label.lua"/>
+</Ui>
+

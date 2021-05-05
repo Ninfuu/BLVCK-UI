@@ -1,0 +1,14 @@
+## Interface: 40200
+## Title: Bagnon Facade
+## Notes: Allows ButtonFacade to skin Bagnon windows
+## Author: Jaliborc (João Cardoso)
+## X-Category: Inventory
+## X-License: GNU General Public License Version 3
+
+## SavedVariables: BagnonFacade_Settings
+## OptionalDeps: LibStub, LibButtonFacade, ButtonFacade, Masque
+## Dependencies: Bagnon
+## Version: 2
+
+Libs\LibButtonFacade\LibButtonFacade.lua
+Bagnon_Facade.lua

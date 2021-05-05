@@ -1,0 +1,68 @@
+
+mNameplatesDB = {
+	["namespaces"] = {
+		["RaidMark"] = {
+		},
+		["UnitGuild"] = {
+		},
+		["NameFilter"] = {
+		},
+		["UnitLevel"] = {
+		},
+		["BossIcon"] = {
+		},
+		["EliteIcon"] = {
+		},
+		["CastBar"] = {
+		},
+		["UnitHealthText"] = {
+		},
+		["HealthBars"] = {
+			["profiles"] = {
+				["Default"] = {
+					["Colors"] = {
+						["NPC"] = {
+							["BOSS"] = {
+								["NEUTRAL"] = {
+									0, -- [1]
+									0, -- [2]
+									0, -- [3]
+									0.3300000429153442, -- [4]
+								},
+							},
+							["NORMAL"] = {
+								["NEUTRAL"] = {
+									0, -- [1]
+									0, -- [2]
+									0, -- [3]
+									0.2800000309944153, -- [4]
+								},
+							},
+							["ELITE"] = {
+								["NEUTRAL"] = {
+									0, -- [1]
+									0, -- [2]
+									0, -- [3]
+									0.3300000429153442, -- [4]
+								},
+							},
+						},
+					},
+					["Texture"] = "Minimalist",
+				},
+			},
+		},
+		["UnitName"] = {
+		},
+		["UnitHealthPercent"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ninfuu - Algalon x4 - 3.3.5a"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Width"] = 151.6999969482422,
+		},
+	},
+}

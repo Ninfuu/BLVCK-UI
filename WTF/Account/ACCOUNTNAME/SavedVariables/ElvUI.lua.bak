@@ -1,0 +1,352 @@
+
+ElvDB = {
+	["faction"] = {
+		["Apollo 2"] = {
+			["Ninfuu"] = "Alliance",
+		},
+	},
+	["global"] = {
+		["nameplates"] = {
+			["filters"] = {
+				["ElvUI_NonTarget"] = {
+				},
+				["ElvUI_Totem"] = {
+				},
+				["ElvUI_Target"] = {
+				},
+				["ElvUI_Boss"] = {
+				},
+			},
+		},
+	},
+	["gold"] = {
+		["Apollo 2"] = {
+			["Ninfuu"] = 695,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["class"] = {
+		["Apollo 2"] = {
+			["Ninfuu"] = "PRIEST",
+		},
+	},
+	["profileKeys"] = {
+		["Ninfuu - Apollo 2"] = "Ninfuu - Apollo 2",
+	},
+	["profiles"] = {
+		["Ninfuu - Apollo 2"] = {
+			["databars"] = {
+				["experience"] = {
+					["width"] = 350,
+					["orientation"] = "HORIZONTAL",
+					["height"] = 10,
+					["textSize"] = 12,
+				},
+				["reputation"] = {
+					["enable"] = true,
+					["width"] = 222,
+					["height"] = 10,
+					["orientation"] = "HORIZONTAL",
+				},
+			},
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,482",
+				["MirrorTimer1Mover"] = "TOP,ElvUIParent,TOP,-1,-96",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,1,243",
+				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,1,190",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,341,138",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-340,138",
+				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,-1,-18",
+				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-36",
+				["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,-1,293",
+				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-92,57",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,248",
+				["TempEnchantMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-257",
+				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,418,-186",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-340,99",
+				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,769",
+				["ReputationBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-246",
+				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,341,59",
+				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,1,97",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,737",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,1,138",
+				["ElvBar_Totem"] = "BOTTOM,ElvUIParent,BOTTOM,0,55",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,485,4",
+				["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,248",
+				["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,43",
+				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,341,99",
+			},
+			["layoutSetting"] = "dpsCaster",
+			["bags"] = {
+				["bagSize"] = 42,
+				["bankSize"] = 42,
+				["bagWidth"] = 472,
+				["bankWidth"] = 472,
+			},
+			["layoutSet"] = "dpsCaster",
+			["auras"] = {
+				["debuffs"] = {
+					["size"] = 40,
+				},
+				["buffs"] = {
+					["size"] = 40,
+				},
+			},
+			["general"] = {
+				["totems"] = {
+					["spacing"] = 8,
+					["growthDirection"] = "HORIZONTAL",
+					["size"] = 50,
+				},
+				["valuecolor"] = {
+					["b"] = 0.99,
+					["g"] = 0.99,
+				},
+				["watchFrameHeight"] = 400,
+				["minimap"] = {
+					["size"] = 220,
+				},
+			},
+			["unitframe"] = {
+				["units"] = {
+					["pet"] = {
+						["debuffs"] = {
+							["enable"] = true,
+							["anchorPoint"] = "TOPRIGHT",
+						},
+						["disableTargetGlow"] = false,
+						["portrait"] = {
+							["camDistanceScale"] = 2,
+						},
+						["width"] = 270,
+						["infoPanel"] = {
+							["height"] = 14,
+						},
+						["castbar"] = {
+							["iconSize"] = 32,
+							["width"] = 270,
+						},
+					},
+					["targettarget"] = {
+						["debuffs"] = {
+							["enable"] = false,
+							["anchorPoint"] = "TOPRIGHT",
+						},
+						["threatStyle"] = "GLOW",
+						["power"] = {
+							["enable"] = false,
+						},
+						["disableMouseoverGlow"] = true,
+						["width"] = 270,
+						["raidicon"] = {
+							["attachTo"] = "LEFT",
+							["enable"] = false,
+							["xOffset"] = 2,
+							["yOffset"] = 0,
+						},
+					},
+					["target"] = {
+						["combobar"] = {
+							["height"] = 14,
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+						},
+						["height"] = 82,
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+						["castbar"] = {
+							["insideInfoPanel"] = false,
+							["width"] = 407,
+							["height"] = 40,
+						},
+						["disableMouseoverGlow"] = true,
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "InfoPanel",
+							["height"] = 22,
+						},
+						["orientation"] = "LEFT",
+					},
+					["focus"] = {
+						["castbar"] = {
+							["width"] = 270,
+						},
+						["width"] = 270,
+					},
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -16,
+							["numrows"] = 1,
+							["maxDuration"] = 300,
+						},
+						["castbar"] = {
+							["width"] = 246,
+						},
+						["width"] = 246,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["portrait"] = {
+							["width"] = 45,
+							["camDistanceScale"] = 2,
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 16,
+							["maxDuration"] = 300,
+						},
+					},
+					["raid40"] = {
+						["enable"] = false,
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
+						},
+					},
+					["raid"] = {
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["position"] = "BOTTOMLEFT",
+							["xOffset"] = 2,
+						},
+						["visibility"] = "[@raid6,noexists] hide;show",
+						["rdebuffs"] = {
+							["yOffset"] = 25,
+							["font"] = "PT Sans Narrow",
+							["xOffset"] = 30,
+							["size"] = 30,
+						},
+						["growthDirection"] = "RIGHT_UP",
+						["resurrectIcon"] = {
+							["attachTo"] = "BOTTOMRIGHT",
+						},
+						["width"] = 92,
+						["numGroups"] = 8,
+						["roleIcon"] = {
+							["attachTo"] = "InfoPanel",
+							["position"] = "BOTTOMRIGHT",
+							["xOffset"] = 0,
+							["size"] = 12,
+						},
+					},
+					["player"] = {
+						["debuffs"] = {
+							["attachTo"] = "BUFFS",
+						},
+						["height"] = 82,
+						["classbar"] = {
+							["height"] = 14,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+						["power"] = {
+							["height"] = 22,
+							["attachTextTo"] = "InfoPanel",
+						},
+						["castbar"] = {
+							["height"] = 40,
+							["insideInfoPanel"] = false,
+							["width"] = 407,
+						},
+						["disableMouseoverGlow"] = true,
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+						},
+						["buffs"] = {
+							["enable"] = true,
+							["attachTo"] = "FRAME",
+						},
+					},
+					["party"] = {
+						["height"] = 74,
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
+						},
+						["power"] = {
+							["height"] = 13,
+						},
+						["width"] = 231,
+					},
+				},
+				["smoothbars"] = true,
+				["colors"] = {
+					["auraBarBuff"] = {
+						["b"] = 0.99,
+						["g"] = 0.99,
+						["r"] = 0.99,
+					},
+					["healthclass"] = true,
+					["castClassColor"] = true,
+				},
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["buttonSize"] = 50,
+					["buttonSpacing"] = 1,
+					["buttons"] = 8,
+					["buttonsPerRow"] = 10,
+				},
+				["bar2"] = {
+					["enabled"] = true,
+					["buttonSize"] = 38,
+					["buttonSpacing"] = 1,
+					["buttons"] = 9,
+				},
+				["bar5"] = {
+					["enabled"] = false,
+				},
+				["bar1"] = {
+					["buttonSize"] = 50,
+					["buttonSpacing"] = 1,
+					["buttons"] = 8,
+				},
+				["bar4"] = {
+					["enabled"] = false,
+				},
+			},
+			["tooltip"] = {
+				["healthBar"] = {
+					["fontOutline"] = "MONOCHROMEOUTLINE",
+					["height"] = 12,
+				},
+			},
+			["chat"] = {
+				["panelWidth"] = 472,
+				["panelHeight"] = 236,
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Ninfuu - Apollo 2"] = "Ninfuu - Apollo 2",
+	},
+	["profiles"] = {
+		["Ninfuu - Apollo 2"] = {
+			["theme"] = "class",
+			["install_complete"] = 2.92,
+		},
+	},
+}

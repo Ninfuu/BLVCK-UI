@@ -1,0 +1,32 @@
+## Interface: 30300
+## Title: mNameplates
+## Author: mangeg
+## SavedVariables: mNameplatesDB
+## Version: 0.1
+## X-Compatible-With: 40000
+## X-Curse-Packaged-Version: 1.0
+## X-Curse-Project-Name: mNameplates
+## X-Curse-Project-ID: mnameplates
+## X-Curse-Repository-ID: wow/mnameplates/mainline
+
+Libs\modules.xml
+
+mNameplates.lua
+Utils.lua
+
+Filters\Prototype.lua
+
+Filters\NameFilter.lua
+
+DisplayModules\Prototype.lua
+
+DisplayModules\HealthBar.lua
+DisplayModules\CastBar.lua
+DisplayModules\UnitName.lua
+DisplayModules\UnitLevel.lua
+DisplayModules\BossIcon.lua
+DisplayModules\EliteIcon.lua
+DisplayModules\RaidMark.lua
+DisplayModules\UnitGuild.lua
+DisplayModules\UnitHealthText.lua
+DisplayModules\UnitHealthPercent.lua

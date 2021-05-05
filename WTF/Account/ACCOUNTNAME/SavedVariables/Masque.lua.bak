@@ -1,0 +1,10 @@
+
+MasqueDB = {
+	["profileKeys"] = {
+		["Ninfuu - Apollo 2"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

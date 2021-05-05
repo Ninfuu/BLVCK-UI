@@ -1,0 +1,162 @@
+
+SexyMap2DB = {
+	["presets"] = {
+	},
+	["Ninfuu-Apollo 2"] = {
+		["ping"] = {
+			["showPing"] = true,
+			["showAt"] = "map",
+		},
+		["coordinates"] = {
+			["enabled"] = false,
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+			},
+			["locked"] = false,
+			["backgroundColor"] = {
+			},
+		},
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapWorldMapButton"] = "never",
+			},
+			["dragPositions"] = {
+			},
+			["controlVisibility"] = true,
+		},
+		["hudmap"] = {
+			["useQuestHelper"] = true,
+			["useRoutes"] = true,
+			["hudColor"] = {
+			},
+			["scale"] = 1.4,
+			["textColor"] = {
+				["a"] = 1,
+				["b"] = 0.5,
+				["g"] = 1,
+				["r"] = 0.5,
+			},
+			["alpha"] = 0.7,
+			["useGatherMate"] = true,
+		},
+		["zonetext"] = {
+			["bgColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+		},
+		["fader"] = {
+			["enabled"] = false,
+			["normalOpacity"] = 1,
+			["hoverOpacity"] = 0.25,
+		},
+		["clock"] = {
+			["bgColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+		},
+		["borders"] = {
+			["applyPreset"] = false,
+			["borders"] = {
+				{
+					["a"] = 1,
+					["r"] = 0.3098039215686275,
+					["name"] = "Rune 1",
+					["b"] = 1,
+					["scale"] = 1.4,
+					["rotSpeed"] = -30,
+					["g"] = 0.4784313725490196,
+					["texture"] = "SPELLS\\AURARUNE256.BLP",
+				}, -- [1]
+				{
+					["a"] = 0.3799999952316284,
+					["r"] = 0.196078431372549,
+					["rotSpeed"] = 60,
+					["b"] = 1,
+					["scale"] = 2.1,
+					["name"] = "Rune 2",
+					["g"] = 0.2901960784313725,
+					["texture"] = "SPELLS\\AuraRune_A.blp",
+				}, -- [2]
+				{
+					["a"] = 0.3,
+					["name"] = "Fade",
+					["b"] = 1,
+					["scale"] = 1.6,
+					["r"] = 0,
+					["g"] = 0.2235294117647059,
+					["texture"] = "SPELLS\\T_VFX_HERO_CIRCLE.BLP",
+				}, -- [3]
+			},
+			["backdrop"] = {
+				["show"] = false,
+				["textureColor"] = {
+				},
+				["settings"] = {
+					["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+					["edgeFile"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+					["tile"] = false,
+					["edgeSize"] = 16,
+					["insets"] = {
+						["top"] = 4,
+						["right"] = 4,
+						["left"] = 4,
+						["bottom"] = 4,
+					},
+				},
+				["borderColor"] = {
+				},
+				["scale"] = 1,
+			},
+			["hideBlizzard"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
+		["core"] = {
+			["clamp"] = true,
+			["lock"] = true,
+			["shape"] = "Textures\\MinimapMask",
+			["northTag"] = true,
+			["autoZoom"] = 5,
+			["rightClickToConfig"] = true,
+		},
+	},
+}

@@ -1,0 +1,6 @@
+Shadowed:
+	- Added red color code around tag errors
+	- Removed resurection range checking for now, causing some weird issues on range checking
+	- Trying out a tweak to buff hiding, if the buff frames are already hidden by another mode, we won't hide them, if they are not hidden then we will
+	- Fixing a bug when anchoring one aura group to another, and the other group is not shown
+	- Added help text if you have an unit override set in zone configuration that 'conflicts' with the global one, so people don't forget about ozone overrides

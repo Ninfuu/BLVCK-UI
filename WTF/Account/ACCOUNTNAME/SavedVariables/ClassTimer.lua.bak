@@ -1,0 +1,16 @@
+
+ClassTimerDB = {
+	["profileKeys"] = {
+		["Ninfuu - Algalon x4 - 3.3.5a"] = "Ninfuu - Algalon x4 - 3.3.5a",
+	},
+	["profiles"] = {
+		["Ninfuu - Algalon x4 - 3.3.5a"] = {
+			["Units"] = {
+				["player"] = {
+				},
+				["focus"] = {
+				},
+			},
+		},
+	},
+}

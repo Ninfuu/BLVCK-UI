@@ -1,0 +1,14 @@
+tag v1.5.1
+13b4a7e7fbf28a496dbb3ee73b8a1936afec6c5c
+phyber <phyber@wowace>
+2010-03-27 20:05:47 +0000
+
+Tagging as v1.5.1
+
+
+--------------------
+
+phyber:
+	- Fix tiling of the bubbles display.
+	- Shitty fix for stupid texture tiling.
+	- Show rep for faction headers like Alliance Vanguard in the tooltips.

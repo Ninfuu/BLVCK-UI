@@ -1,0 +1,26 @@
+
+TipTac_Config = {
+	["tipColor"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.6700000166893005, -- [4]
+	},
+	["colorNameByClass"] = true,
+	["classColoredBorder"] = false,
+	["tipBorderColor"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["optionsBottom"] = 444.9999207391895,
+	["top"] = 287.9996607992923,
+	["optionsLeft"] = 242.9997630382153,
+	["gradientTip"] = false,
+	["showDebuffs"] = false,
+	["showBuffs"] = false,
+	["anchorWorldUnitPoint"] = "CENTER",
+	["targetYouText"] = "<<YOU>>",
+	["left"] = 912.0000754995124,
+}

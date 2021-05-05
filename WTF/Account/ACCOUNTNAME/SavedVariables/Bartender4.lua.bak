@@ -1,0 +1,176 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 41.75,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001850216763,
+								["point"] = "CENTER",
+								["y"] = -189.4999419734273,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 3,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.4999546934539,
+						["point"] = "BOTTOM",
+						["y"] = 222.9999816038326,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+						["y"] = 41.75,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["onebag"] = true,
+					["version"] = 3,
+					["position"] = {
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 53.49997862898772,
+						["point"] = "CENTER",
+						["y"] = 51.49996372056955,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.50003723685188,
+						["point"] = "CENTER",
+						["y"] = -14.99998926320336,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Ninfuu - Apollo 2"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ninfuu - Apollo 2"] = "Ninfuu - Apollo 2",
+	},
+	["profiles"] = {
+		["Ninfuu - Apollo 2"] = {
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["outofrange"] = "hotkey",
+		},
+	},
+}

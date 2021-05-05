@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r104 | ulic | 2010-10-14 15:59:38 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Castbars.lua
+
+Don't set height and width for regions that don't exist (ticket #61)
+------------------------------------------------------------------------
+r103 | ulic | 2010-10-13 16:50:53 +0000 (Wed, 13 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Castbars.lua
+
+Update GCD spellIds for Frost Armor, Power Word: Fortitude and Death Coil
+------------------------------------------------------------------------
+r102 | ulic | 2010-10-13 16:23:45 +0000 (Wed, 13 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Castbars.lua
+
+Hunter's Volley is gone from the game
+------------------------------------------------------------------------

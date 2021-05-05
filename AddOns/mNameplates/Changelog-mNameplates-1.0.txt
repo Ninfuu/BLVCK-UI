@@ -1,0 +1,26 @@
+------------------------------------------------------------------------
+r29 | mangeg | 2010-09-08 08:30:55 +0000 (Wed, 08 Sep 2010) | 1 line
+Changed paths:
+   A /tags/1.0 (from /trunk:28)
+
+Tagging as 1.0
+------------------------------------------------------------------------
+r28 | mangeg | 2010-09-08 08:25:35 +0000 (Wed, 08 Sep 2010) | 2 lines
+Changed paths:
+   M /trunk/DisplayModules/HealthBar.lua
+   M /trunk/DisplayModules/UnitHealthPercent.lua
+   M /trunk/DisplayModules/UnitHealthText.lua
+   M /trunk/mNameplates.lua
+   M /trunk/mNameplates.toc
+
+- Update TOC for ## X-Compatible-With: 40000
+- Update for fixed LibNameplates (plates being sent with health changed callback instead of the healthframe).
+------------------------------------------------------------------------
+r26 | mangeg | 2010-08-16 09:01:09 +0000 (Mon, 16 Aug 2010) | 2 lines
+Changed paths:
+   M /trunk
+   M /trunk/DisplayModules/CastBar.lua
+
+#CastBar:
+- Fixed some errors when friendly units were casting spells while nameplates for friendly units were disabled.
+------------------------------------------------------------------------

@@ -1,0 +1,228 @@
+
+ChatterDB = {
+	["namespaces"] = {
+		["PlayerNames"] = {
+		},
+		["AltLinks"] = {
+		},
+		["Scrollback"] = {
+		},
+		["Invite Links"] = {
+			["profiles"] = {
+				["Default"] = {
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+				},
+			},
+		},
+		["ChannelColors"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["RealID Conversation"] = {
+							["b"] = 0.9411765262484551,
+							["g"] = 0.6941176881082356,
+							["r"] = 0,
+						},
+						["Guild"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1.000000059138984,
+							["r"] = 0.250980406999588,
+						},
+						["Party Leader"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.7843137718737125,
+							["r"] = 0.4627451254054904,
+						},
+						["General"] = {
+							["b"] = 0.9098039753735066,
+							["g"] = 0.9019608376547694,
+							["r"] = 0.7647059275768697,
+						},
+						["RealID Whisper"] = {
+							["b"] = 0.9647059394046664,
+							["g"] = 1.000000059138984,
+							["r"] = 0,
+						},
+						["Raid Leader"] = {
+							["b"] = 0.03529411973431706,
+							["g"] = 0.2823529578745365,
+							["r"] = 1.000000059138984,
+						},
+						["Battleground"] = {
+							["b"] = 0,
+							["g"] = 0.4980392451398075,
+							["r"] = 1.000000059138984,
+						},
+						["Yell"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1.000000059138984,
+						},
+						["LocalDefense"] = {
+							["b"] = 0.4745098319835961,
+							["g"] = 0.8941176999360323,
+							["r"] = 0.9098039753735066,
+						},
+						["Party"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.6666667060926557,
+							["r"] = 0.6666667060926557,
+						},
+						["Whisper"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.501960813999176,
+							["r"] = 1.000000059138984,
+						},
+						["Say"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 1.000000059138984,
+							["r"] = 1.000000059138984,
+						},
+						["Raid Warning"] = {
+							["b"] = 0,
+							["g"] = 0.2823529578745365,
+							["r"] = 1.000000059138984,
+						},
+						["Raid"] = {
+							["b"] = 0,
+							["g"] = 0.4980392451398075,
+							["r"] = 1.000000059138984,
+						},
+						["Battleground Leader"] = {
+							["b"] = 0.717647101264447,
+							["g"] = 0.8588235802017152,
+							["r"] = 1.000000059138984,
+						},
+						["Officer"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.752941220998764,
+							["r"] = 0.250980406999588,
+						},
+					},
+				},
+			},
+		},
+		["StickyChannels"] = {
+		},
+		["RealIdPolish"] = {
+		},
+		["ChatFrameBorders"] = {
+			["profiles"] = {
+				["Default"] = {
+					["frames"] = {
+						["FRAME_1"] = {
+							["border"] = "Blizzard Achievement Wood",
+							["borderColor"] = {
+								["b"] = 0,
+								["g"] = 0,
+								["r"] = 0,
+							},
+							["background"] = "Solid",
+							["backgroundColor"] = {
+								["a"] = 0.2100000381469727,
+							},
+						},
+						["FRAME_5"] = {
+							["enable"] = false,
+							["background"] = "Blizzard Parchment 2",
+							["backgroundColor"] = {
+								["a"] = 0,
+							},
+						},
+						["FRAME_3"] = {
+							["backgroundColor"] = {
+								["a"] = 0,
+							},
+						},
+						["FRAME_4"] = {
+							["backgroundColor"] = {
+								["a"] = 0,
+							},
+						},
+						["FRAME_2"] = {
+							["backgroundColor"] = {
+								["a"] = 0,
+							},
+						},
+						["FRAME_10"] = {
+							["enable"] = false,
+							["background"] = "Blizzard Dialog Background",
+							["backgroundColor"] = {
+								["a"] = 0,
+							},
+						},
+					},
+				},
+			},
+		},
+		["Buttons"] = {
+		},
+		["Server Positioning"] = {
+		},
+		["JustifyText"] = {
+		},
+		["Timestamps"] = {
+		},
+		["EditBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["edgeSize"] = 7,
+					["border"] = "Square Clean",
+					["inset"] = 4,
+					["font"] = "Myriad Condensed Web",
+					["tileSize"] = 12,
+					["borderColor"] = {
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["height"] = 26,
+				},
+			},
+		},
+		["Highlight"] = {
+		},
+		["ChatTabs"] = {
+		},
+		["ChannelNames"] = {
+		},
+		["CopyChat"] = {
+		},
+		["UrlCopy"] = {
+		},
+		["Editbox History"] = {
+			["realm"] = {
+				["Apollo 2"] = {
+					["history"] = {
+						"/chatter", -- [1]
+						"/chatter", -- [2]
+						"/masque", -- [3]
+						"/castbars", -- [4]
+						"/castbars", -- [5]
+						"/castbars", -- [6]
+						"/castbars", -- [7]
+					},
+				},
+			},
+		},
+		["ChatFont"] = {
+		},
+		["Mousewheel Scroll"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ninfuu - Apollo 2"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Disable Fading"] = true,
+				["Borders/Background"] = true,
+			},
+			["welcomeMessaged"] = true,
+		},
+	},
+}

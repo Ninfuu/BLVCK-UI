@@ -1,0 +1,25 @@
+
+MADB = {
+	["characters"] = {
+	},
+	["frameListRows"] = 18,
+	["tooltips"] = 1,
+	["profiles"] = {
+		["default"] = {
+			["name"] = "default",
+			["frames"] = {
+				["WatchFrame"] = {
+					["name"] = "WatchFrame",
+					["hidden"] = true,
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-0.0001400570662305501, -- [4]
+						-662.9999701147764, -- [5]
+					},
+				},
+			},
+		},
+	},
+}

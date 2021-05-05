@@ -1,0 +1,14 @@
+
+ButtonFacadeDB = {
+	["profileKeys"] = {
+		["Ninfuu - Mograine"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Gloss"] = 0,
+		},
+		["Ninfuu - Mograine"] = {
+			["Gloss"] = 0,
+		},
+	},
+}

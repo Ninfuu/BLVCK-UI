@@ -1,0 +1,23 @@
+
+XPBarNoneDB = {
+	["profileKeys"] = {
+		["Ninfuu - Algalon x4 - 3.3.5a"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["general"] = {
+				["hidetext"] = true,
+				["border"] = true,
+				["posy"] = 101.3278088262732,
+				["locked"] = true,
+				["texture"] = "Glaze",
+				["posx"] = 370.0884841865769,
+				["clamptoscreen"] = false,
+				["height"] = 15,
+				["dynamicbars"] = true,
+				["bubbles"] = true,
+				["width"] = 230,
+			},
+		},
+	},
+}

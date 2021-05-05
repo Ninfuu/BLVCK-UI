@@ -1,0 +1,14 @@
+## Interface: 40000
+
+## Title: ButtonFacade: |c007c7c7c*Shadow*|r
+## Notes: Skin for ButtonFacade.
+## Version: 1.0
+
+## Author: Ferous, StormFX
+## E-Mail: ferous.wow@gmail.com - StormFX contact - http://www.wowinterface.com/forums/member.php?userid=42194
+## Credits: StormFX
+
+## Category: Action Bars
+## OptionalDeps: LibButtonFacade, ButtonFacade
+
+Skins.lua
