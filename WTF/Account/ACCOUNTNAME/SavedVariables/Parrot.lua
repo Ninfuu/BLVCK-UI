@@ -3,10 +3,10 @@ ParrotDB = {
 	["namespaces"] = {
 		["CombatEvents"] = {
 			["profiles"] = {
-				["Default"] = {
+				["BLVCK"] = {
 					["hideUnitNames"] = true,
 					["Notification"] = {
-						["Player killing blows"] = {
+						["Enemy debuff gains"] = {
 							["disabled"] = true,
 						},
 						["Power gain"] = {
@@ -69,7 +69,7 @@ ParrotDB = {
 						["Loot items"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff fades"] = {
+						["Buff stack gains"] = {
 							["disabled"] = true,
 						},
 						["Loot money"] = {
@@ -84,28 +84,28 @@ ParrotDB = {
 						["Skill gains"] = {
 							["disabled"] = true,
 						},
-						["Buff gains"] = {
+						["Debuff gains"] = {
 							["disabled"] = true,
 						},
 						["Leave combat"] = {
 							["disabled"] = true,
 						},
-						["Honor gains"] = {
+						["Target buff gains"] = {
 							["disabled"] = true,
 						},
 						["Extra attacks"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff gains"] = {
+						["Player killing blows"] = {
 							["disabled"] = true,
 						},
-						["Target buff gains"] = {
+						["Honor gains"] = {
 							["disabled"] = true,
 						},
-						["Debuff gains"] = {
+						["Buff gains"] = {
 							["disabled"] = true,
 						},
-						["Buff stack gains"] = {
+						["Enemy debuff fades"] = {
 							["disabled"] = true,
 						},
 						["Debuff stack gains"] = {
@@ -127,35 +127,35 @@ ParrotDB = {
 		},
 		["ScrollAreas"] = {
 			["profiles"] = {
-				["Default"] = {
+				["BLVCK"] = {
 					["areas"] = {
 						["Notification"] = {
 							["stickyDirection"] = "UP;CENTER",
 							["direction"] = "UP;CENTER",
-							["yOffset"] = 175,
+							["stickyAnimationStyle"] = "Pow",
 							["xOffset"] = 0,
 							["size"] = 150,
 							["animationStyle"] = "Straight",
-							["stickyAnimationStyle"] = "Pow",
-						},
-						["Outgoing"] = {
-							["stickyDirection"] = "DOWN;LEFT",
-							["direction"] = "DOWN;RIGHT",
-							["yOffset"] = -30,
-							["xOffset"] = 60,
-							["size"] = 260,
-							["animationStyle"] = "Parabola",
-							["stickyAnimationStyle"] = "Pow",
+							["yOffset"] = 175,
 						},
 						["Incoming"] = {
 							["stickyDirection"] = "DOWN;RIGHT",
 							["direction"] = "DOWN;LEFT",
-							["yOffset"] = -30,
+							["stickyAnimationStyle"] = "Pow",
 							["iconSide"] = "RIGHT",
 							["xOffset"] = -60,
 							["size"] = 260,
 							["animationStyle"] = "Parabola",
+							["yOffset"] = -30,
+						},
+						["Outgoing"] = {
+							["stickyDirection"] = "DOWN;LEFT",
+							["direction"] = "DOWN;RIGHT",
 							["stickyAnimationStyle"] = "Pow",
+							["xOffset"] = 60,
+							["size"] = 260,
+							["animationStyle"] = "Parabola",
+							["yOffset"] = -30,
 						},
 					},
 				},
@@ -163,17 +163,17 @@ ParrotDB = {
 		},
 		["Triggers"] = {
 			["profiles"] = {
-				["Default"] = {
+				["BLVCK"] = {
 					["dbver"] = 3,
 				},
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Ninfuu - Algalon x4 - 3.3.5a"] = "Default",
+		["Ninfuu - Algalon x4 - 3.3.5a"] = "BLVCK",
 	},
 	["profiles"] = {
-		["Default"] = {
+		["BLVCK"] = {
 			["gameText"] = true,
 		},
 	},

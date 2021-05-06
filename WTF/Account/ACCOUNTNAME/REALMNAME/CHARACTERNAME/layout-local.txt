@@ -11,8 +11,8 @@ FrameLevel: 20
 Anchor: CENTER
 X: 1
 Y: -186
-W: 195
-H: 13
+W: 240
+H: 11
 Frame: PetCastingBarFrame
 FrameLevel: 22
 Anchor: CENTER
@@ -37,10 +37,10 @@ H: 10
 Frame: MonkeyQuestFrame
 FrameLevel: 6
 Anchor: TOPRIGHT
-X: 9
-Y: -150
+X: -2
+Y: -175
 W: 200
-H: 26
+H: 87
 Frame: MAOptions
 FrameLevel: 5
 Anchor: RIGHT

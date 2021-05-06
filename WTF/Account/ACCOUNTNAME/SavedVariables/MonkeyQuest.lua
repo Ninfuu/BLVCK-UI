@@ -82,6 +82,12 @@ MonkeyQuestConfig = {
 		["m_bShowZoneHighlight"] = true,
 		["m_strCompleteObjectiveColour"] = "|cff 0ff19",
 		["m_aQuestList"] = {
+			["Рудник Подземных глубин"] = {
+				["m_bChecked"] = true,
+			},
+			["Элвиннский лес"] = {
+				["m_bChecked"] = true,
+			},
 		},
 		["m_bDisplay"] = true,
 		["m_bMinimized"] = false,
@@ -90,8 +96,8 @@ MonkeyQuestConfig = {
 		["m_bShowQuestLevel"] = true,
 		["m_bShowDailyNumQuests"] = false,
 		["m_bDefaultAnchor"] = false,
-		["m_iFrameBottom"] = 677.5286498423571,
-		["m_iFrameLeft"] = 1325.679209547461,
+		["m_iFrameBottom"] = 591.0348678495243,
+		["m_iFrameLeft"] = 1315.407704410656,
 		["m_iAlpha"] = 0,
 		["m_bLocked"] = false,
 		["m_bNoBorder"] = true,
@@ -108,7 +114,7 @@ MonkeyQuestConfig = {
 		["m_iFrameWidth"] = 200,
 		["m_bHideTitleButtons"] = true,
 		["m_strHeaderOpenColour"] = "|cFFBFBFFF",
-		["m_iFrameTop"] = 703.5286335661941,
+		["m_iFrameTop"] = 678.2446915944081,
 		["m_bObjectives"] = true,
 		["m_bHideHeader"] = true,
 		["m_bShowTooltipObjectives"] = true,
@@ -138,13 +144,13 @@ MonkeyQuestConfig = {
 			["Continue to Stormwind"] = {
 				["m_bChecked"] = true,
 			},
-			["Stormwind City"] = {
+			["Elmore's Task"] = {
 				["m_bChecked"] = true,
 			},
 			["Further Concerns"] = {
 				["m_bChecked"] = true,
 			},
-			["Elmore's Task"] = {
+			["Stormwind City"] = {
 				["m_bChecked"] = true,
 			},
 			["Elwynn Forest"] = {

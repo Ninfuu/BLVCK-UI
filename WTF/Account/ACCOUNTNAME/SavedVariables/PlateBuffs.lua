@@ -1,10 +1,10 @@
 
 PB_DB = {
 	["profileKeys"] = {
-		["Ninfuu - Algalon x4 - 3.3.5a"] = "Default",
+		["Ninfuu - Algalon x4 - 3.3.5a"] = "BLVCK",
 	},
 	["profiles"] = {
-		["Default"] = {
+		["BLVCK"] = {
 			["unknownSpellDataIcon"] = false,
 		},
 	},
